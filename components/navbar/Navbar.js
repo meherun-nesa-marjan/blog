@@ -6,7 +6,7 @@ export default async function Navbar() {
     const { getUser, isAuthenticated } = getKindeServerSession();
     const user = await getUser();
     return (
-        <nav className="flex justify-between my-5">
+        <nav className="flex justify-between my-5 items-center text-center">
             <div>
                 <Link href="/">Blog</Link>
             </div>
