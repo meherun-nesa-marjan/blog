@@ -7,7 +7,7 @@ export default async function Navbar() {
     const user = await getUser();
     return (
         <nav className="flex justify-between my-5 items-center text-center">
-            <div>
+            <div className="py-2">
                 <Link href="/">Blog</Link>
             </div>
             <div className="flex items-center text-center space-x-5">
